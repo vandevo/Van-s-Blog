@@ -45,3 +45,16 @@ a {
     font-size: 18px;
     color: lightsalmon;
 }
+
+a:hover {
+    color: darkred;
+    font-weight: bold;
+}
+
+a:visited {
+    color: deeppink;
+}
+
+a:active {
+    color: lime;
+}
