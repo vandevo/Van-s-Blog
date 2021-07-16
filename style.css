@@ -60,3 +60,7 @@ a:visited {
 a:active {
     color: lime;
 }
+
+span {
+    color: darkorange
+}
