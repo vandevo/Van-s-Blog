@@ -39,6 +39,8 @@ p {
 .container {
     background-color: lightyellow;
     padding: 15px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 a {
