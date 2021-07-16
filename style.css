@@ -6,6 +6,7 @@ section {
     padding: 50px 50px 10px 50px;
     margin: auto;
     text-align: center;
+    
 }
 
 img {
@@ -18,4 +19,29 @@ p {
     margin: auto;
     width: 60%;
     padding: 30px 15px 15px 15px;
+}
+
+h1 {
+    font-size: 35px;
+    color: darkred;
+    margin-bottom: -20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: lightslategray;
+}
+
+p {
+    font-size: 16px;
+}
+
+.container {
+    background-color: lightyellow;
+    padding: 15px;
+}
+
+a {
+    font-size: 18px;
+    color: lightsalmon;
 }
