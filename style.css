@@ -46,21 +46,33 @@ p {
 a {
     font-size: 18px;
     color: lightsalmon;
+    text-decoration: none;
 }
 
 a:hover {
-    color: darkred;
+    color: lightyellow;
     font-weight: bold;
 }
 
 a:visited {
-    color: deeppink;
+    color: lightgoldenrodyellow;
 }
 
 a:active {
-    color: lime;
+    color: darkred;
 }
 
 span {
     color: darkorange
+}
+
+.button {
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: lightsalmon;
 }
