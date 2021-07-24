@@ -1,5 +1,6 @@
 html {
     font-family: 'Titillium Web', sans-serif;
+    
 }
 
 .about-img {
@@ -10,8 +11,13 @@ html {
 
 body {
     margin: 0;
+    
 }
 
+h1, p {
+   
+    width: 100px auto;
+}
 
 header {
     background-color: #8BC6EC;
@@ -22,12 +28,10 @@ header {
 
 header > h1 {
     padding: 40px;
-}
-
-
-header > h1 {
     color: whitesmoke;
 }
+
+
 
 
 .section-one, .section-two {
@@ -38,15 +42,16 @@ header > h1 {
 .section-two {
     background-color: #9599E2;
     color: whitesmoke;
+    
 }
 
 
 .btn {
     display: inline-block;
-    background-color: black;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: #9599E2;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     text-decoration: none;
 
 }
