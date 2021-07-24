@@ -39,3 +39,14 @@ header > h1 {
     background-color: #9599E2;
     color: whitesmoke;
 }
+
+
+.btn {
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
