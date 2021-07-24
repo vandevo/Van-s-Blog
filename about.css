@@ -14,20 +14,18 @@ body {
     
 }
 
-h1, p {
-   
-    width: 100px auto;
-}
+
 
 header {
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-    padding: 15px;
+    margin: 0 auto;
+    padding: 45px 0;
+    width: 620px;
     
 }
 
 header > h1 {
-    padding: 40px;
     color: whitesmoke;
 }
 
@@ -36,13 +34,14 @@ header > h1 {
 
 .section-one, .section-two {
     padding: 40px;
-    margin: 0;
+    margin: 0 auto;
+    padding: 45px 0;
+    width: 620px;
 }
 
 .section-two {
     background-color: #9599E2;
     color: whitesmoke;
-    
 }
 
 
