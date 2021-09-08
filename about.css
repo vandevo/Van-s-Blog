@@ -5,8 +5,8 @@ html, body {
 
 /* Images */
 .about-img {
-    width: 50%;
-    border-radius: 30px;
+    width: 70%;
+    border-radius: 40px;
     
  }
 
@@ -22,12 +22,13 @@ header > h1 {
 }
 
 .section-one, .section-two, header {
-    padding: 40px;  
+    padding: 20px;  
 }
 
 .section-two {
     background-color: #9599E2;
     color: whitesmoke;
+
 }
 
 
@@ -42,7 +43,8 @@ header > h1 {
 }
 
 .container {
-    padding: 45px 0;
-    width: 100%;
+    padding: 20px 0;
+    width: 90%;
+    max-width: 620PX;
     margin: 0 auto;
 }
