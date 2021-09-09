@@ -1,7 +1,11 @@
-html, body {
+html {
+    font-size: 100%;
+}
+
+body {
     font-family: 'Titillium Web', sans-serif;
     margin: 0;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 /* Images */
@@ -12,7 +16,7 @@ html, body {
  }
 
  ul {
-     font-size: 0.9em;
+     font-size: 0.9rem;
  }
 
 header {
@@ -37,17 +41,30 @@ header > h1 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .btn {
     display: inline-block;
     background-color: whitesmoke;
     color: #9599E2;
-    padding: 10px;
+    padding: .5em 1.25em;
     border-radius: 5px;
     text-decoration: none;
 
+}
+
+.btn:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.btn-big {
+    font-size: 2rem;
+}
+
+.btn-small {
+    font-size: 0.75rem;
 }
 
 .container {
